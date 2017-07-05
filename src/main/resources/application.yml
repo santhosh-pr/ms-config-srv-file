@@ -3,12 +3,12 @@ server:
 ---
 spring:
  application:
-    name: mc-config
+    name: ms-config-srv
  profiles:
     active: native
  cloud:
     config:
       server:
         native:
-          search-locations: file:///Users/santhoshramachandran/workspsce/micr-services/mc-confg-svr/src/test/resources/config
+          search-locations: file:///Users/santhoshramachandran/workspsce/micr-services/ms-config-srv-file/src/test/resources/config
     
