@@ -12,3 +12,9 @@ The configuration file [data file] name should be match with application.name in
 *we can rename the application.yml by setting the value for spring.config.name as jvm arg*
 
 
+we can see the results by invoking the endpoints
+
+http://localhost:7000/ms-config-srv/default 
+http://localhost:7000/ms-config-srv/dev
+
+
