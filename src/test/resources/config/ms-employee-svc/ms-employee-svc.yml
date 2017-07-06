@@ -1,2 +1,3 @@
+svc_name: ms-employee-svc
 yml_file: default
 default_conf_file: loaded

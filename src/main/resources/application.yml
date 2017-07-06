@@ -2,13 +2,12 @@ server:
   port: 7000
 ---
 spring:
- application:
-    name: ms-config-srv
  profiles:
     active: native
  cloud:
     config:
       server:
         native:
-          search-locations: file:///Users/santhoshramachandran/workspsce/micr-services/ms-config-srv-file/src/test/resources/config
-## use classpath: to load file from the classpath     
+          search-locations: file:///Users/santhoshramachandran/workspsce/micr-services/ms-config-srv-file/src/test/resources/config/ms-employee-svc,file:///Users/santhoshramachandran/workspsce/micr-services/ms-config-srv-file/src/test/resources/config/ms-dept-svc
+## use classpath: to load file from the classpath 
+
