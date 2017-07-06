@@ -15,6 +15,8 @@ The configuration file [data file] name should be match with application.name in
 we can see the results by invoking the endpoints
 
 http://localhost:7000/ms-config-srv/default 
+
+
 http://localhost:7000/ms-config-srv/dev
 
 
