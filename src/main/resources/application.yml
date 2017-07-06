@@ -11,4 +11,4 @@ spring:
       server:
         native:
           search-locations: file:///Users/santhoshramachandran/workspsce/micr-services/ms-config-srv-file/src/test/resources/config
-    
+## use classpath: to load file from the classpath     
