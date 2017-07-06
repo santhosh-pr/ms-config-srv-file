@@ -1,7 +1,7 @@
 # ms-config-srv-file
 Spring cloud config server from local file system
 
-As we are storing the configuration or data file in local file system, we should enable the profile - **native**
+As we are storing the configuration or data file in local file system[doesn’t use Git], we should enable the profile - **native**
 
 I kept the configuration files to be loaded under the *src/test/resources/config* folder. 
 
