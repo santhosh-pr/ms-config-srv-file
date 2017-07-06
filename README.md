@@ -9,7 +9,7 @@ Two service confuigurations - ms-employee-svc and ms-dept-svc.
 
 We can specify the path of directory in application.yml file *search-location property*. 
 
-The configuration file [data file] name should be match with application.name of client service mentioned in the application.yml file @ client side - ie ms-employee-svc or ms-dept-svc
+The configuration file [data file] name should match with application.name of client service mentioned in the application.yml file @ client side - ie ms-employee-svc or ms-dept-svc
 
 *The spring.application.name is the name of client application, must map directly to the name of the directory within your Spring Cloud configuration server.*
 
